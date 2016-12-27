@@ -1,0 +1,4 @@
+[alias]
+	l = log --graph --abbrev-commit --date=short --decorate --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%Cgreen%d %Creset%<(70,trunc)%s' --first-parent
+	ll  = log --graph --abbrev-commit --date=short --decorate --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%Cgreen%d %Creset%<(70,trunc)%s' --branches
+	lll = log --graph --abbrev-commit --date=short --decorate --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%Cgreen%d %Creset%<(70,trunc)%s' --branches --stat
